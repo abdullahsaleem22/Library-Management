@@ -61,15 +61,25 @@ Open http://localhost:3000 in your browser.
 ## Project Structure
 
 library-management/
+
 ├── backend/
+
 │   ├── prisma/        # prisma models for Books and Authors
+
 │   ├── routes/        # API routes for CRUD operations
+
 │   ├── server.js      # Entry point for the backend server
+
 ├── frontend/
+
 │   ├── src/
+
 │   │   ├── components/  # React components for UI
+
 │   │   ├── pages/       # Pages for the application
+
 │   │   ├── App.js       # Main React application
+
 │   │   ├── index.js     # React DOM entry point
 
 
