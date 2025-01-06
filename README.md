@@ -2,24 +2,24 @@
 A full-stack library management website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This application allows users to manage books and authors, leveraging a many-to-many relationship for enhanced data management and functionality.
 
 ## Features
-Books Management: View and manage a list of books in the library.
-Authors Management: Add, view, and manage authors.
-Add Book: Easily add new books to the collection with details like title, author(s), and other relevant information.
-Add Author: Add new authors to the database with associated details.
-Many-to-Many Relationship: Link multiple authors to a single book and associate multiple books with a single author.
+- Books Management: View and manage a list of books in the library.
+- Authors Management: Add, view, and manage authors.
+- Add Book: Easily add new books to the collection with details like title, author(s), and other relevant information.
+- Add Author: Add new authors to the database with associated details.
+- Many-to-Many Relationship: Link multiple authors to a single book and associate multiple books with a single author.
 ## Technologies Used
 ### Frontend
-React.js: For building a dynamic and responsive user interface.
-React Router: For navigation and routing between pages.
-TailwindCSS: For styling the application.
+- React.js: For building a dynamic and responsive user interface.
+- React Router: For navigation and routing between pages.
+- TailwindCSS: For styling the application.
 ### Backend
-Node.js: Server-side runtime environment.
-Express.js: Web framework for handling API requests.
-MongoDB: Database for storing books and authors.
+- Node.js: Server-side runtime environment.
+- Express.js: Web framework for handling API requests.
+- MongoDB: Database for storing books and authors.
 ## Getting Started
 ### Prerequisites
-Node.js installed on your machine.
-MongoDB set up and running locally or on a cloud service like Atlas.
+- Node.js installed on your machine.
+- MongoDB set up and running locally or on a cloud service like Atlas.
 ### Installation
 
 #### Clone the repository:
@@ -56,7 +56,7 @@ MongoDB set up and running locally or on a cloud service like Atlas.
 
 ### Access the application:
 
-Open http://localhost:3000 in your browser.
+- Open http://localhost:3000 in your browser.
 
 ## Project Structure
 
@@ -64,23 +64,23 @@ library-management/
 
 ├── backend/
 
-│   ├── prisma/        # prisma models for Books and Authors
+│    ├── prisma/        # prisma models for Books and Authors
 
-│   ├── routes/        # API routes for CRUD operations
+│    ├── routes/        # API routes for CRUD operations
 
-│   ├── server.js      # Entry point for the backend server
+│    ├── server.js      # Entry point for the backend server
 
 ├── frontend/
 
-│   ├── src/
+│    ├── src/
 
-│   │   ├── components/  # React components for UI
+│    │    ├── components/  # React components for UI
 
-│   │   ├── pages/       # Pages for the application
+│    │    ├── pages/       # Pages for the application
 
-│   │   ├── App.js       # Main React application
+│    │    ├── App.js       # Main React application
 
-│   │   ├── index.js     # React DOM entry point
+│    │    ├── index.js     # React DOM entry point
 
 
 ## Contributing
