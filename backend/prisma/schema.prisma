@@ -1,0 +1,30 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Author {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  AuthorId   Int      @unique
+  name       String
+  BooksID    Int[]
+  Books      String[]
+}
+
+model Book {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  BookID       Int      @unique
+  title        String
+  AuthorsID    Int[]
+  Authors      String[]
+}
+
+model Counter {
+  id           String @id @default(auto()) @map("_id") @db.ObjectId
+  type         String @unique
+  currentCount Int
+}
