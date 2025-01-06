@@ -24,7 +24,7 @@ MongoDB set up and running locally or on a cloud service like Atlas.
 
 #### Clone the repository:
 
-1. git clone https://github.com/yourusername/library-management.git
+1. git clone [https://github.com/yourusername/library-management.git](https://github.com/abdullahsaleem22/Library-Management)
 2. cd library-management
 
 #### Install dependencies for the backend:
